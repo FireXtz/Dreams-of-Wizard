@@ -58,5 +58,4 @@ public class GamePanel extends JPanel {
         bufferedSubImage = bufferedImage.getSubimage(0, 0, 100, 128);
         graphics.drawImage(bufferedSubImage,(int)xDelta,(int)yDelta,null);
     }
-
 }
